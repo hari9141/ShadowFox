@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>G Hari Haran - Full Stack Web Developer</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        rel="stylesheet"
+    />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet"
+    />
+
+    <script
+        type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+</head>
+<body>
+    <header class="nav">
+        <div class="container nav-inner">
+            <div class="nav-left">
+                <span class="nav-logo">G<span>H</span></span>
+                <span class="nav-tagline">Full Stack Web Developer</span>
+            </div>
+
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <nav class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#resume" class="nav-link">Resume</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#certificates" class="nav-link">Certificates</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="section hero">
+        <div class="container hero-inner">
+            <div class="hero-text">
+                <p class="hero-kicker">Hello, I'm</p>
+                <h1 class="hero-title">G Hari Haran</h1>
+                <p class="hero-role">Full Stack Web Developer &amp; AI Enthusiast</p>
+                <p class="hero-desc">
+                    I build clean, modern web applications with performant backends and
+                    intuitive UIs. Comfortable across the stack from React and APIs to
+                    databases and deployment.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary scroll-link">
+                        <i class="fas fa-code"></i>
+                        <span>View Projects</span>
+                    </a>
+                    <a href="#resume" class="btn btn-outline scroll-link">
+                        <i class="fas fa-file-alt"></i>
+                        <span>View Resume</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-photo">
+                <div class="photo-frame">
+                    <img src="profile.jpg" alt="G Hari Haran" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <header class="section-header">
+                <h2>About</h2>
+                <p>Who I am &amp; what I do</p>
+            </header>
+
+            <div class="grid-2">
+                <div class="card">
+                    <p>
+                        I'm a Computer Science student and
+                        <strong>Full Stack Web Developer</strong> who enjoys building
+                        real-world products. I focus on clean architecture, reusable
+                        components, and end-to-end problem solving.
+                    </p>
+                    <p>
+                        I work with <strong>React</strong>, <strong>Node.js</strong>,
+                        <strong>Express</strong>, <strong>Flask</strong>,
+                        <strong>MongoDB</strong>, and <strong>PostgreSQL</strong>,
+                        and I love integrating <strong>AI</strong> into products using
+                        tools like TensorFlow and Hugging Face.
+                    </p>
+                </div>
+
+                <div class="card card-list">
+                    <div class="list-item">
+                        <span class="label">Education</span>
+                        <span class="value">B.E. CSE, Rajalakshmi Institute of Technology (2027)</span>
+                    </div>
+                    <div class="list-item">
+                        <span class="label">Leadership</span>
+                        <span class="value">President, National Service Scheme (NSS)</span>
+                    </div>
+                    <div class="list-item">
+                        <span class="label">Primary Focus</span>
+                        <span class="value">Full Stack Web Apps &amp; AI-powered tools</span>
+                    </div>
+                    <div class="list-item">
+                        <span class="label">Location</span>
+                        <span class="value">Chennai, India</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resume" class="section">
+        <div class="container">
+            <header class="section-header">
+                <h2>Resume</h2>
+                <p>A quick snapshot of my profile</p>
+            </header>
+
+            <div class="card resume-card">
+                <div class="resume-info">
+                    <h3>G Hari Haran</h3>
+                    <p>Full Stack Web Developer &amp; AI Enthusiast</p>
+                    <p class="resume-small">
+                        For full details of my education, projects, internships and skills,
+                        view or download the PDF below.
+                    </p>
+                </div>
+                <div class="resume-actions">
+                    <a
+                        href="HARIHARAN_G_RESUME.pdf"
+                        target="_blank"
+                        class="btn btn-primary"
+                    >
+                        <i class="fas fa-external-link-alt"></i>
+                        <span>Open Resume</span>
+                    </a>
+                    <a
+                        href="HARIHARAN_G_RESUME.pdf"
+                        download
+                        class="btn btn-outline"
+                    >
+                        <i class="fas fa-download"></i>
+                        <span>Download PDF</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <header class="section-header">
+                <h2>Projects</h2>
+                <p>Selected work across full stack &amp; AI</p>
+            </header>
+
+            <div class="grid-3">
+                <article class="card project-card">
+                    <h3>DocLocked</h3>
+                    <p class="project-tag">AI · Security · Backend</p>
+                    <p class="project-desc">
+                        AI-powered document verification platform to detect fake credentials
+                        across education, employment and ID sectors with real-time checks.
+                    </p>
+                    <div class="chip-row">
+                        <span class="chip">Python</span>
+                        <span class="chip">TensorFlow</span>
+                        <span class="chip">Firebase</span>
+                        <span class="chip">Gemini API</span>
+                    </div>
+                    <a
+                        href="https://github.com/hari9141/DocLocked"
+                        target="_blank"
+                        class="project-link"
+                    >
+                        <i class="fab fa-github"></i>
+                        <span>View Code</span>
+                    </a>
+                </article>
+
+                <article class="card project-card">
+                    <h3>DocChat</h3>
+                    <p class="project-tag">Full Stack · NLP</p>
+                    <p class="project-desc">
+                        RAG-based document assistant that converts static PDFs into
+                        interactive knowledge bases using semantic search and a chat UI.
+                    </p>
+                    <div class="chip-row">
+                        <span class="chip">FastAPI</span>
+                        <span class="chip">Pinecone</span>
+                        <span class="chip">React</span>
+                        <span class="chip">Hugging Face</span>
+                    </div>
+                    <a
+                        href="https://github.com/hari9141/docchat"
+                        target="_blank"
+                        class="project-link"
+                    >
+                        <i class="fab fa-github"></i>
+                        <span>View Code</span>
+                    </a>
+                </article>
+
+                <article class="card project-card">
+                    <h3>AuthenFace</h3>
+                    <p class="project-tag">Computer Vision · Security</p>
+                    <p class="project-desc">
+                        Real-time facial recognition and liveness detection system for
+                        secure authentication with anti-spoofing and multi-face tracking.
+                    </p>
+                    <div class="chip-row">
+                        <span class="chip">Python</span>
+                        <span class="chip">OpenCV</span>
+                        <span class="chip">NumPy</span>
+                    </div>
+                    <a
+                        href="https://github.com/hari9141/Face_recog_opencv"
+                        target="_blank"
+                        class="project-link"
+                    >
+                        <i class="fab fa-github"></i>
+                        <span>View Code</span>
+                    </a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <header class="section-header">
+                <h2>Skills</h2>
+                <p>Tech stack I work with</p>
+            </header>
+
+            <div class="grid-3 skillss">
+                <div class="card">
+                    <h3>Languages</h3>
+                    <ul class="plain-list">
+                        <li>Python</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>C</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>Web &amp; Backend</h3>
+                    <ul class="plain-list">
+                        <li>React, HTML5, CSS3</li>
+                        <li>Node.js, Express.js, Flask</li>
+                        <li>REST APIs, Authentication</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>Databases &amp; Tools</h3>
+                    <ul class="plain-list">
+                        <li>MongoDB, PostgreSQL, Firebase</li>
+                        <li>Git &amp; GitHub, Postman</li>
+                        <li>Basic Docker &amp; Deployment</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="grid-2 skills-bottom">
+                <div class="card">
+                    <h3>AI / ML</h3>
+                    <ul class="plain-list">
+                        <li>TensorFlow &amp; Keras</li>
+                        <li>Hugging Face Transformers</li>
+                        <li>Computer Vision (OpenCV)</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3>Soft Skills</h3>
+                    <ul class="plain-list">
+                        <li>Team Leadership (NSS President)</li>
+                        <li>Problem Solving &amp; Ownership</li>
+                        <li>Communication &amp; Presentation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certificates" class="section">
+        <div class="container">
+            <header class="section-header">
+                <h2>Certificates</h2>
+                <p>Validating my learning</p>
+            </header>
+            <div class="cert-scroll-wrapper">
+                <div class="cert-scroll" id="cert-scroll">
+                    <div class="cert-item">
+                        <img src="9.jpg" alt="Certificate 1">
+                    </div>
+                    <div class="cert-item">
+                        <img src="8.jpg" alt="Certificate 2">
+                    </div>
+                    <div class="cert-item">
+                        <img src="7.png" alt="Certificate 3">
+                    </div>
+                    <div class="cert-item">
+                        <img src="4.png" alt="Certificate 4">
+                    </div>
+                    <div class="cert-item">
+                        <img src="5.png" alt="Certificate 5">
+                    </div>
+                    <div class="cert-item">
+                        <img src="6.png" alt="Certificate 6">
+                    </div>
+                    <div class="cert-item">
+                        <img src="1.png" alt="Certificate 7">
+                    </div>
+                    <div class="cert-item">
+                        <img src="3.png" alt="Certificate 8">
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-hint">
+                ← Scroll sideways to view more →
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <header class="section-header">
+                <h2>Contact</h2>
+                <p>Let's discuss an opportunity or a project</p>
+            </header>
+
+            <div class="grid-2 contact-grid">
+                <div class="card contact-info">
+                    <h3>Reach me at</h3>
+                    <div class="contact-line">
+                        <i class="fas fa-envelope"></i>
+                        <span>hhariharan489@gmail.com</span>
+                    </div>
+                    <div class="contact-line">
+                        <i class="fas fa-phone"></i>
+                        <span>+91 9677043565</span>
+                    </div>
+                    <div class="contact-line">
+                        <i class="fas fa-location-dot"></i>
+                        <span>Chennai, India</span>
+                    </div>
+
+                    <div class="social-row">
+                        <a
+                            href="https://www.linkedin.com/in/hariharan-g-067337288/"
+                            target="_blank"
+                            aria-label="LinkedIn"
+                        >
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a
+                            href="https://github.com/hari9141"
+                            target="_blank"
+                            aria-label="GitHub"
+                        >
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="card contact-form-card">
+                    <form id="contact-form">
+                        <div class="field">
+                            <label for="name">Name</label>
+                            <input
+                                type="text"
+                                id="name"
+                                name="from_name"
+                                required
+                            />
+                        </div>
+                        <div class="field">
+                            <label for="email">Email</label>
+                            <input
+                                type="email"
+                                id="email"
+                                name="from_email"
+                                required
+                            />
+                        </div>
+                        <div class="field">
+                            <label for="message">Message</label>
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="4"
+                                required
+                            ></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="submit-btn">
+                            <span id="submit-text">Send Message</span>
+                            <span id="submit-loading" class="submit-loading">
+                                <i class="fas fa-spinner fa-spin"></i> Sending
+                            </span>
+                        </button>
+                        <p id="form-status" class="form-status"></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <button id="contact-fab" class="contact-fab" aria-label="Contact">
+        <i class="fas fa-envelope"></i>
+    </button>
+    <footer class="footer">
+        <div class="container footer-inner">
+            <span><span id="year"></span>, G Hari Haran</span>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
