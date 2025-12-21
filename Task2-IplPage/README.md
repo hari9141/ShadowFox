@@ -13,4 +13,4 @@ A responsive IPL fanpage built using React and deployed on Netlify.
 - Netlify
 
 ### Live Demo
-👉 https://your-site.netlify.app
+👉 https://delightful-caramel-34d1e1.netlify.app
