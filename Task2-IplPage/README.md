@@ -1,16 +1,39 @@
-## IPL Fanpage
+<<<<<<< HEAD
+# RCB Fan Page (Vite + React)
 
-A responsive IPL fanpage built using React and deployed on Netlify.
+This is a static fan website for Royal Challengers Bangalore (RCB) built with Vite + React.
+Pages: Home, RCB Men, RCB Women, Stats, Gallery, Glories.
 
-### Features
-- Team & match information
-- Responsive UI
-- Deployed on Netlify
+## Setup
 
-### Tech Stack
-- React
-- CSS
-- Netlify
+1. Install dependencies:
+npm install
 
-### Live Demo
-👉 https://delightful-caramel-34d1e1.netlify.app
+markdown
+Copy code
+
+2. Start dev server:
+npm run dev
+
+markdown
+Copy code
+
+3. Build:
+npm run build
+
+markdown
+Copy code
+
+4. Preview production build:
+npm run preview
+
+pgsql
+Copy code
+
+## Notes
+- Add your images into `src/assets/` (logo, banners, players, gallery).
+- All data is in `src/model/` and can be edited to update players/stats/gallery
+=======
+# ShadowFox
+Web Development Internship tasks for ShadowFox
+>>>>>>> 9c560fac2f75f19b067df90970c3786b3677471c
