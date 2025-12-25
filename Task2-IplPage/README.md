@@ -1,70 +1,118 @@
-🏏 Royal Challengers Bangalore (RCB) – IPL Fan Page
+# 🏏 IPL Team Fan Page – Royal Challengers Bangalore (RCB)
 
-A responsive and interactive IPL fan website dedicated to Royal Challengers Bangalore (RCB), built as part of the ShadowFox Web Development Internship (Intermediate Task).
+A modern, responsive IPL team fan page dedicated to **Royal Challengers Bangalore (RCB)**, built as part of the **ShadowFox Web Development Internship – Intermediate Task**.
 
-This project celebrates my passion as a lifelong RCB fan, especially after the historic moment when RCB lifted the IPL trophy after 18 years ❤️🔥.
+This project captures the passion, legacy, and emotions of an RCB fan — especially celebrating the historic moment when **RCB lifted the IPL trophy after 18 years**. ❤️🔥
 
-🚀 Live Demo
+---
 
-🔗 Website: (add your Netlify deployed link here)
+## 🚀 Live Demo
+🔗 **Deployed Website:** https://your-live-demo-link.netlify.app  
 
-📂 GitHub Repository
+---
 
-🔗 Repo: (add your GitHub repo link here)
+## 📌 Project Overview
 
-✨ Features
+This IPL fan page serves as a central hub for RCB fans to explore:
+- Team squads
+- Match history
+- Player statistics
+- News updates
+- Media content
+- Club achievements
 
-🏠 Attractive Home Page with hero banner
+Designed to deliver an **immersive and visually rich fan experience** inspired by official IPL team websites.
 
-👥 RCB Men & Women Squad Pages
+---
 
-📊 Statistics Arena
+## ✨ Features
 
-Match Center (previous match results)
+- 🏠 **Home Page** with cinematic hero section  
+- 👨‍👦 **RCB Men Squad** – Player cards with roles  
+- 👩‍👧 **RCB Women Squad** – Dedicated women’s team section  
+- 📺 **RCB TV** – Video cards for interviews & celebrations  
+- 📰 **News Section** – Latest team announcements  
+- 🖼️ **Gallery** – Match moments & iconic memories  
+- 🏆 **Glories** – Achievements and milestones  
+- 📊 **Statistics Arena**
+  - Match Center (previous match results)
+  - Player Metrics (stats overview)
+- 📱 Fully **responsive design** (mobile & desktop)
+- 🎨 Custom RCB-themed UI (Red • Gold • Black)
 
-Player Metrics & team performance highlights
+---
 
-📺 RCB TV – video highlights & exclusive content
+## 🛠️ Tech Stack
 
-📰 News Section – latest updates & announcements
+- **Frontend:** React / HTML / CSS / JavaScript  
+- **Build Tool:** Vite  
+- **Styling:** Custom CSS (no UI frameworks)  
+- **Deployment:** Netlify  
+- **Version Control:** Git & GitHub  
 
-🖼️ Gallery & Glories – iconic moments & achievements
+---
 
-📱 Fully Responsive Design (mobile & desktop friendly)
+## 📂 Project Structure
 
-🛠️ Tech Stack
+Task2-IplPage/
+├── src/
+│ ├── components/
+│ ├── pages/
+│ ├── data/
+│ ├── assets/
+│ └── App.jsx
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
 
-Frontend: HTML, CSS, JavaScript
+yaml
+Copy code
 
-Framework: React (Vite)
+---
 
-Styling: Custom CSS (RCB-themed UI)
+## 🎯 Internship Objectives Covered
 
-Deployment: Netlify
+✔ Team-centric website development  
+✔ Match schedules & statistics presentation  
+✔ Player profiles & team data  
+✔ Interactive & fan-focused UI  
+✔ Responsive design principles  
+✔ Real-world deployment experience  
 
-🎯 Internship Objective Covered
+---
 
-This project fulfills the Intermediate Level Task – IPL Team Website Development by:
+## ❤️ Personal Note
 
-Showcasing team details, players & match history
+I’m a **huge RCB fan**, and building this project was more than an assignment —  
+it was a tribute to the team that **waited 18 years to lift the IPL trophy**.  
+**Ee Sala Cup Namde! 🏆🔥**
 
-Displaying statistics in an engaging and visual manner
+---
 
-Implementing user-friendly navigation
+## 📌 Submission Details
 
-Delivering an immersive fan-centric experience
+- **Internship:** ShadowFox – Web Development  
+- **Task Level:** Intermediate  
+- **Project Type:** IPL Team Fan Page  
 
-💡 Motivation
+---
 
-“As a passionate RCB fan, building this project was special — celebrating the journey, the players, and the unforgettable moment when RCB finally lifted the IPL trophy after 18 years.” 🏆❤️
+## 🙌 Acknowledgements
 
-🙌 Acknowledgements
+- ShadowFox Internship Program  
+- IPL & RCB fan community  
+- Inspiration from official IPL team websites  
 
-ShadowFox Internship Program for the opportunity
+---
 
-Royal Challengers Bangalore & IPL for inspiration
+## 📧 Contact
 
-📌 Author
-Hariharan G
-🎓 B.E. CSE (Pre-Final Year)
-💻 Web Developer | Full Stack Enthusiast
+**Hariharan G**  
+💼 Web Developer | Full Stack Enthusiast  
+🔗 GitHub: https://github.com/hari9141  
+🔗 LinkedIn: https://linkedin.com/in/your-profile  
+
+---
+
+⭐ If you like this project, don’t forget to star the repository!
