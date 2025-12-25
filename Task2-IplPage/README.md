@@ -49,25 +49,7 @@ Designed to deliver an **immersive and visually rich fan experience** inspired b
 - **Styling:** Custom CSS (no UI frameworks)  
 - **Deployment:** Netlify  
 - **Version Control:** Git & GitHub  
-
 ---
-
-## 📂 Project Structure
-
-Task2-IplPage/
-├── src/
-│ ├── components/
-│ ├── pages/
-│ ├── data/
-│ ├── assets/
-│ └── App.jsx
-├── index.html
-├── package.json
-├── vite.config.js
-└── README.md
-
-yaml
-Copy code
 
 ---
 
@@ -116,5 +98,6 @@ it was a tribute to the team that **waited 18 years to lift the IPL trophy**.
 ---
 
 ⭐ If you like this project, don’t forget to star the repository!
+
 
 
