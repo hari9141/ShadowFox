@@ -7,7 +7,7 @@ This project captures the passion, legacy, and emotions of an RCB fan — especi
 ---
 
 ## 🚀 Live Demo
-🔗 **Deployed Website:** https://your-live-demo-link.netlify.app  
+🔗 **Deployed Website:** [https://your-live-demo-link.netlify.app  ](https://rcb-fanpage.netlify.app/)
 
 ---
 
@@ -116,3 +116,4 @@ it was a tribute to the team that **waited 18 years to lift the IPL trophy**.
 ---
 
 ⭐ If you like this project, don’t forget to star the repository!
+
