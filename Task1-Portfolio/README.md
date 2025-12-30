@@ -4,7 +4,7 @@ A modern, minimal, black-themed portfolio website with neon-blue aesthetics.
 Designed to showcase **projects, skills, certificates, and resume** in a clean and interactive way.
 
 This portfolio is fully responsive and built using **HTML, CSS, and JavaScript**, with EmailJS integration for contact forms and a horizontal scroll gallery for certificates.
-
+🔗 Deployed Website: https://hariharan-g.netlify.app/
 ---
 
 ## 🚀 Features
