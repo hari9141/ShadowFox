@@ -1,0 +1,37 @@
+.privacy-intro {
+    text-align: center;
+    margin-bottom: 0px;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.privacy-intro h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    background: linear-gradient(135deg, #9F7AEA 0%, #805AD5 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    font-weight: 800;
+}
+
+.privacy-content {
+    max-width: 900px;
+    margin: auto;
+}
+
+.privacy-content h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: var(--primary-color);
+}
+
+.privacy-content p,
+.privacy-content ul {
+    margin-bottom: 15px;
+}
+
+.privacy-content ul {
+    padding-left: 20px;
+}

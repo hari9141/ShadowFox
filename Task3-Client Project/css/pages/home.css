@@ -1,0 +1,378 @@
+.hero {
+    background-image: url('../../assets/images/banner/Banner-Img-1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: relative;
+    padding: 80px 20px 40px;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    text-align: left;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(85, 60, 154, 0.8) 0%, rgba(85, 60, 154, 0.6) 40%, rgba(85, 60, 154, 0.1) 100%);
+    z-index: 1;
+}
+
+.hero-text {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.hero-text h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin-bottom: 24px;
+    line-height: 1.1;
+    color: #FFFFFF;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.hero-text p {
+    font-size: 1.3rem;
+    color: #F7FAFC;
+    margin-bottom: 40px;
+    max-width: 600px;
+    font-weight: 500;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+
+
+.assurance {
+    position: relative;
+    padding: 60px 20px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.assurance-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.assurance::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(85, 60, 154, 0.8), rgba(45, 55, 72, 0.7));
+    z-index: 1;
+}
+
+.assurance-content {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.assurance p {
+    margin: 15px 0;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    font-size: 2rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.why-us {
+    background-image: url('../../assets/images/abstract-waves.png');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.why-us::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(250, 245, 255, 0.6);
+    z-index: 0;
+}
+
+.why-us>* {
+    position: relative;
+    z-index: 1;
+}
+
+.why-us {
+    text-align: center;
+}
+
+.treatments {
+    text-align: center;
+}
+
+.treatments button {
+    margin-top: 40px;
+}
+
+.treatments h2,
+.testimonials h2,
+.facilities h2,
+.why-us h2 {
+    font-size: 2.8rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 30px;
+    background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary-color) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 15px;
+    letter-spacing: -0.5px;
+}
+
+.card-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 auto 15px auto;
+    overflow: hidden;
+    background: #f0f4ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #e2e8f0;
+}
+
+.card-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mobile-swipe-hint {
+    display: none;
+    text-align: right;
+    font-size: 0.85rem;
+    color: #718096;
+    margin-bottom: 10px;
+    font-style: italic;
+    opacity: 0.8;
+}
+
+.treatments h2::after,
+.testimonials h2::after,
+.facilities h2::after,
+.why-us h2::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 4px;
+    background: linear-gradient(90deg, var(--primary-color), transparent);
+    border-radius: 2px;
+}
+
+.treatments h2::before,
+.testimonials h2::before,
+.facilities h2::before,
+.why-us h2::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20px;
+    height: 4px;
+    background: var(--primary-dark);
+    border-radius: 2px;
+    z-index: 1;
+}
+
+.why-card h3 {
+    margin-bottom: 15px;
+    color: #553C9A;
+    font-size: 1.4rem;
+    font-weight: 700;
+    transition: color 0.3s ease;
+}
+
+.why-card:hover h3 {
+    color: var(--primary-color);
+}
+
+.treatments {
+    background-color: #F7FAFC;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.testimonials {
+    background-color: #FFFFFF;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.facilities {
+    background-color: #F7FAFC;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.facilities-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.facility-card {
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 30px 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.03);
+}
+
+.facility-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(85, 60, 154, 0.15);
+}
+
+.icon-wrapper {
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, #f0f4ff 0%, #e6eaff 100%);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.facility-card:hover .icon-wrapper {
+    transform: scale(1.1) rotate(5deg);
+}
+
+.icon-wrapper img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.facility-card h3 {
+    color: #553C9A;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+    transition: color 0.3s ease;
+}
+
+.facility-card:hover h3 {
+    color: var(--primary-color);
+}
+
+.facility-card p {
+    color: var(--text-color);
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.facilities li::before {
+    content: "✔";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background: var(--primary-color);
+    color: white;
+    border-radius: 50%;
+    font-size: 0.9rem;
+    flex-shrink: 0;
+    box-shadow: 0 4px 6px rgba(159, 122, 234, 0.3);
+}
+
+@keyframes pastelGradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.why-us .why-card,
+.treatments .treatment-card,
+.testimonials .testimonial-card,
+.facilities .facility-card {
+    background: linear-gradient(-45deg, #FAFAFA, #F3E5F5, #D1E9FC, #FAFAFA);
+    background-size: 400% 400%;
+    animation: pastelGradient 10s ease infinite;
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 0 10px 30px rgba(159, 122, 234, 0.1);
+    transition: all 0.3s ease;
+}
+
+.why-us .why-card:hover,
+.treatments .treatment-card:hover,
+.testimonials .testimonial-card:hover,
+.facilities .facility-card:hover {
+    box-shadow: 0 20px 40px rgba(159, 122, 234, 0.25);
+    border-color: rgba(159, 122, 234, 0.3);
+}
+
+.treatment-card h3 {
+    color: #553C9A;
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+    transition: color 0.3s ease;
+}
+
+.treatment-card:hover h3 {
+    color: var(--primary-color);
+}
