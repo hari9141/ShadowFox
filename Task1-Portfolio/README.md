@@ -140,12 +140,6 @@ Including responsive navbar and touch-friendly certificate scroll.
 
 ---
 
-## 🖼 Screenshots (Optional)
-
-_Add screenshots of your portfolio UI here if you want._
-
----
-
 ## 🧑‍💻 Author
 
 **G Hari Haran**  
